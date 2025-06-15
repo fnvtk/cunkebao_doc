@@ -1,0 +1,9 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 生成流程图时注意符号的处理，防止他不显示
+# 这个项目github仓库的地址是：https://github.com/fnvtk/cunkebao_doc.git  github账号：zhiqun@qq.com  密码 Zhiqun1984
+# 调用图片或文档时候用根目录往下调用 
+# 生成Mermaid流程图时，连接线上的文本如果包含特殊字符（如括号、逗号等），务必使用双引号包裹。
