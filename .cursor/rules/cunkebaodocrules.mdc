@@ -4,6 +4,6 @@ globs:
 alwaysApply: true
 ---
 # 生成流程图时注意符号的处理，防止他不显示
-# 这个项目github仓库的地址是：https://github.com/fnvtk/cunkebao_doc.git  github账号：zhiqun@qq.com  密码 Zhiqun1984
-# 调用图片或文档时候用根目录往下调用 
-# 生成Mermaid流程图时，连接线上的文本如果包含特殊字符（如括号、逗号等），务必使用双引号包裹。
+# 这个项目github仓库的地址是：https://github.com/fnvtk/cunkebao_doc.git 用账号密码连接 github账号：zhiqun@qq.com  密码 Zhiqun1984
+# 生成Mermaid流程图时，连接线上的文本如果包含特殊字符（如括号、逗号() 或 /等，以及类似的），务必使用双引号包裹。
+# 在文档中引用位于不同顶级目录（例如，从 '5、后端/' 目录下的文件引用 '4、前端/' 目录下的图片或文档）的资源时，路径务必以 '../' 开头，然后直接跟随目标顶级目录的路径，以确保在所有文档渲染环境（包括本地预览和GitHub）中都能正常显示。
